@@ -1,0 +1,19 @@
+How to run it
+For this demonstration, use a local test application that accepts a q parameter.
+
+Run:
+python xss_test_runner.py --url http://127.0.0.1:8000/search
+
+
+The results will be saved in:
+results/xss-results.csv
+
+Example output:
+Test ID	HTTP status	Raw marker reflected
+XSS-001	200	Yes
+XSS-002	403	No
+XSS-003	200	No
+XSS-004	403	No
+XSS-005	200	Yes
+
+Illustrative results only, not actual test results.
