@@ -1,0 +1,5 @@
+XSS-001|Script element marker|<script type="text/plain">WAFSCAN_XSS_001</script>
+XSS-002|SVG element marker|<svg data-wafscan="XSS_002"></svg>
+XSS-003|Image element marker|<img src="WAFSCAN_XSS_003">
+XSS-004|HTML tag marker|<b data-wafscan="XSS_004">WAFSCAN_TEST</b>
+XSS-005|HTML attribute marker|<div title="WAFSCAN_XSS_005">TEST</div>
